@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive pricing component</title>
+</head>
+<body>
+  <img src="images/bg-pattern.svg" class="bg-pattern">
+  <img src="images/pattern-circles.svg" alt="pattern-circles" class="bg-circles" width="150px">
+
+  <div class="text">
+    Simple, traffic-based pricing<br>
+  </div>
+
+  <div class="subtext">
+    Sign-up for our 30-day trial.
+    No credit card required. 
+  </div>
+    
+  <div class="wrapper">
+    <div class="container">
+      <div class="price">
+        <div class="page-views">
+          <span>100k</span> pageviews
+        </div>
+        <div class="right">
+          <span>$<span class="pricefix">16</span>.00</span>
+          <span class="month">/month</span>
+        </div>
+      </div>
+
+      <div class="progress">
+        <div class="progress-bar">
+          <input type="range" min="1" max="5" step="1" value="-100" class="myrange">
+        </div>
+        <div class="monthly">
+          <span>Monthly Billing</span>
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+          </label>
+          <span>Yearly Billing</span>
+          <span class="discount">25% discount</span>  
+        </div>
+      </div>
+
+      <hr>
+      
+      <div class="benefits">
+        <ul>
+          <li>Unlimited websites</li> 
+          <li>100% data ownership</li>   
+          <li>Email reports</li> 
+        </ul>
+        <button class="btn-trial">Start my trial</button>  
+      </div>
+      
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/rychardsza">Rychard Souza</a>.
+  </div>
+</body>
+</html>
